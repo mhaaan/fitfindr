@@ -1,0 +1,11 @@
+.env
+.env.example
+backend/.env
+.venv/
+venv/
+backend/.venv/
+backend/venv/
+__pycache__/
+*.pyc
+*.db
+.DS_Store
