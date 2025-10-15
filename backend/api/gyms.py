@@ -144,7 +144,6 @@ def get_nearby_gyms(latitude: float, longitude: float, radius: int, db: Session 
         )
     ).all()
 
-    print(results)
     if not results:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
