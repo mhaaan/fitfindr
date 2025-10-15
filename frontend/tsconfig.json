@@ -21,6 +21,15 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
-  ]
+    "src",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "paths": {
+    "@/*": ["./src/*"],
+    "../*": ["./src/*"]
+}
 }
